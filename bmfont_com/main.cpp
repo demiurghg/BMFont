@@ -30,6 +30,8 @@
 //#pragma comment(linker,"/NODEFAULTLIB")
 #pragma comment(linker,"/MERGE:.rdata=.text")
 
+// submodule test
+
 // We'll use our own entry point to skip a lot of unnecessary 
 // initialization in the CRT library, thus decreasing the file size
 #pragma comment(linker,"/ENTRY:NewWinMain")
